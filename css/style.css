@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.marginForCards {
+  margin: 5rem !important;
+  min-width: 3rem; }
+
+.formContainer {
+  display: flex;
+  border: black solid 2px;
+  padding: 20px; }
+
+#product_form--header, #dvd, #furniture, #book {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px; }
+
+input {
+  margin-bottom: 10px; }
+
+.productCard {
+  margin: 3rem;
+  padding: 2rem;
+  border: black solid 2px;
+  min-width: 17rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.productItem {
+  display: flex;
+  margin: 1rem; }
+
+.delete-checkbox {
+  display: flex;
+  align-self: flex-start; }
+
+header {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px; }
+
+nav {
+  display: flex; }
+  nav a {
+    margin-left: 2rem;
+    text-decoration: none; }
+    nav a:hover {
+      color: red; }
+
+main {
+  color: black;
+  background-color: beige; }
+  main .productsContainer {
+    display: flex;
+    flex-wrap: wrap; }
+
+footer {
+  border-top: black solid 2px;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }

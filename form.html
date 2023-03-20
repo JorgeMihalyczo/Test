@@ -1,0 +1,36 @@
+<form id="product_form" action="" method="post">
+    <div id="product_form--header">
+        <label for="sku">SKU</label>
+    <input type="text" for="sku" id="sku">
+    <label for="name">Name</label>
+    <input type="text" for="name" id="name">
+    <label for="sku">Price</label>
+    <input type="number" for="price" id="price">
+    <label for="typeSwitcher">Type Switcher</label>
+    <select name="typeSwitcher" id="productType">
+        <option value="DVD">DVD</option>
+        <option value="Furniture">Furniture</option>
+        <option value="Book">Book</option>
+    </select>
+    </div>
+    <div id="dvd">
+        <label for="size">Size</label>
+        <input type="text" for="size" id="size">
+        <p>Please enter the size of the product in MB</p>
+    </div>
+    <div id="furniture">
+        <label for="height">Height (CM)</label>
+        <input type="text" for="height" id="height">
+        <label for="width">Width (CM)</label>
+        <input type="text" for="width" id="width">
+        <label for="length">Length (CM)</label>
+        <input type="text" for="length" id="length">
+        <p>Please provide dimensions in HxWxL format</p>
+    </div>
+    <div id="book">
+        <label for="weight">Weight</label>
+        <input type="text" for="weight" id="weight">
+        <p>Please enter the weight of the product in KG</p>
+    </div>
+    <button type="submit">Send</button>
+</form>

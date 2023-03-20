@@ -1,0 +1,13 @@
+.formContainer{
+    display: flex;
+    border: black solid 2px;
+    padding: 20px;
+}
+#product_form--header, #dvd, #furniture, #book{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+input{
+    margin-bottom: 10px;
+}

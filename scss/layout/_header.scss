@@ -1,0 +1,16 @@
+header{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: black solid 2px;
+}
+nav{
+    display: flex;
+    a{
+        margin-left: 2rem;
+        text-decoration: none;
+        &:hover{
+            color: red;
+        }
+    }
+}
